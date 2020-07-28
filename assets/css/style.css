@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 body {
     color: #39a6b2;
@@ -35,3 +36,46 @@ header nav ul li a {
     font-size: 22px;
 }
 
+/*Define styling properties for footer tag*/
+footer{
+    background: #fce138;
+    width: 100%;
+    padding: 40px 35px;
+}
+/*Define styling properties for h2 tags inside footer tag*/
+footer h2{
+    display: inline;
+    color: #024e76;
+    font-size: 30px;
+    margin: 0;
+}
+/*Define styling properties for div tags located inside footer tag*/
+footer div{
+    float: right;
+    line-height: 1.5;
+    text-align: right;
+}
+/*Define styling properties for anchor tags inside the footer*/
+footer a {
+    color: #024e76;
+}
+
+/*Define global styling for section*/
+section{
+    padding: 60px;
+}
+.hero{
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+}
+.hero-form{
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;
+}
