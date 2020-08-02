@@ -298,6 +298,19 @@ section{
 .flex-row{
     display:flex
 }
+.service-grid-container{
+    display: grid;
+}
+.service-grid-item{
+    width: 200px;
+    height: 50px;
+    background-color: orange;
+    border: solid;
+    color: black;
+}
+
+
+/* Media Queries */
 
 /* MEDIA QUERY FOR SMALL DESKTOP SCREENS AND SMALLER */
 @media screen and (max-width: 980px){
